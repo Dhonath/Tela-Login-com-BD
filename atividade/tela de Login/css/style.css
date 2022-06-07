@@ -1,0 +1,106 @@
+body{
+
+    background-color: black;
+}
+input{
+    color: white;
+}
+input::placeholder{
+    color: white;
+}
+input:invalid{
+    border-color: red;
+}
+input:focus{
+    border-color: blue !important;
+}
+/*.corpo {
+    color: black;
+    border-color: blue;
+}*/
+.loginname{
+    color: gray;
+    top: 100px;
+    cursor: pointer;
+
+    position: relative;
+    left: 640px;
+}
+.email{
+    opacity: 80%;
+    border-radius: 3px;
+    background-color: black;
+    top: 150px;
+    width: 300px;
+    padding: 10px 10px;
+    position: relative;
+    left: 600px;
+}
+.topname{
+    color: white;
+    top: 159px;
+    transition: .3s;
+    cursor: pointer;
+    position: relative;
+    left: 600px;
+}
+.topname:hover{
+    color: orange;
+}
+.senha{
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    opacity: 80%;
+    top: 210px;
+    width: 300px;
+    padding: 10px 10px;
+    position: relative;
+    left:272px;
+}
+.button{
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    padding: 10px 10px;
+    text-align: center;
+    background-color: Orange;
+   top: 270px;
+    position: relative;
+    left: 600px;
+    transition: .3s;
+}
+.button:hover{
+    opacity: 80%;
+}
+.check{
+    color: gray;
+    cursor: pointer;
+    top: 150px;
+    opacity: 50%;
+    position: relative;
+    left: 630px;
+}
+.box{
+    top: 195px;
+    position: relative;
+    left:600px;
+}
+.esqueceu{
+    color: gray;
+    top: 200px;
+    cursor: pointer;
+    position: relative;
+    left: 795px;
+}
+.cadastrar{
+    color: gray;
+    top: 200px;
+    cursor: pointer;
+    position: relative;
+    left: 500px;
+}
+a{
+    text-decoration: none;
+}
